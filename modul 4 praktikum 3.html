@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector CSS</title>
+    <style>
+        li:nth-child(even) {color: red;}
+        li:nth-child(odd) {color: chocolate;}
+        li.biru {color: lightblue;}
+        li#biru {color: blue;}
+
+        #biru {color: aqua;}
+        #biru::before {
+            content: "Tanya : ";
+        }
+        #saya::before {
+            content: "Kevin Ardi Setyawan : ";
+        }
+        p::first-letter {
+            font-size: x-large;
+            color: orangered;
+        }
+</style>
+</head>
+<body>
+    <ul>
+        <li>Data Pertama</li>
+        <li>Data Kedua</li>
+        <li class="biru">Data Ketiga</li>
+        <li>Data Keempat</li>
+        <li class="biru">Data Kelima</li>
+        <li id="biru">Data Keenam</li>
+        <li>Data Ketujuh</li>
+        <li>Data Kedelapan</li>
+    </ul>
+    
+    <p id="saya"> Saya sedang belajar HTML dan CSS </p>
+    <p id="biru">Apakah anda sudah paham mengenai HTML dan CSS?</p>
+    <p id="saya">saya sudah menguasai HTML dan CSS</p>
+</body>
+</html>
