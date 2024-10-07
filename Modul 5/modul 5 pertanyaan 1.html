@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resep Makanan</title>
+    <style>
+        /* CSS Internal/Embedded */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Gaya untuk judul dengan border berwarna */
+        h1 {
+            text-align: center;
+            border: 3px solid #ff6347;
+            padding: 10px;
+            background-color: #ffe4e1;
+            color: #333;
+        }
+
+        /* Gaya untuk gambar */
+        .gambar-resep {
+            text-align: center;
+            display: block;
+            margin: 0 auto;
+            width: 25%;
+        }
+
+        /* Gaya untuk daftar bahan dan langkah pembuatan */
+        .bahan, .cara {
+            list-style-type: none;
+            padding: 15px;
+            margin: 20px auto;
+            width: 80%;
+            border-radius: 10px;
+        }
+
+        /* Warna background untuk bahan */
+        .bahan {
+            background-color: #fff0f5;
+            color: #333;
+        }
+
+        /* Warna background untuk cara membuat */
+        .cara {
+            background-color: #f0fff0;
+            color: #333;
+        }
+
+        /* Tombol Cek dan Cetak */
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #ff6347;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #ff4500;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Resep Telur Sambal</h1>
+    <img src="telur sambal.jpg" alt="Telur Sambal" class="gambar-resep">
+
+    <ul class="bahan">
+        <h3>Bahan-bahan:</h3>
+        <li>4 butir telur</li>
+        <li>3 siung bawang putih</li>
+        <li>5 siung bawang merah</li>
+        <li>10 buah cabai merah</li>
+        <li>1 buah tomat</li>
+        <li>Garam secukupnya</li>
+        <li>Minyak untuk menggoreng</li>
+    </ul>
+
+    <ul class="cara">
+        <h3>Cara Membuat:</h3>
+        <li>1. Rebus telur hingga matang, lalu kupas kulitnya.</li>
+        <li>2. Goreng telur hingga berkulit, angkat dan tiriskan.</li>
+        <li>3. Haluskan bawang putih, bawang merah, cabai, dan tomat.</li>
+        <li>4. Tumis bumbu halus hingga harum dan matang.</li>
+        <li>5. Tambahkan garam secukupnya, aduk rata.</li>
+        <li>6. Masukkan telur yang sudah digoreng, aduk hingga telur terbalut sambal.</li>
+        <li>7. Angkat dan sajikan dengan nasi hangat.</li>
+    </ul>
+
+    <button onclick="cekResep()">Cek Nama Resep</button>
+    <p id="hasil-resep"></p>
+    <button onclick="window.print()">Cetak Resep</button>
+
+    <footer>
+        @Copyright Kevin Ardi Setyawan 2024
+    </footer>
+    <script>
+        function cekResep() {
+            console.log('Telur Sambal');
+        }
+    </script>
+    
+</body>
+</html>
