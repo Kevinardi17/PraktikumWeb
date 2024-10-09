@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modul 6 Pertanyaan 1</title>
+</head>
+<body>
+    <p>
+        <script lang="JavaScript">
+            const customers = [
+            {name: "Lena", hasMembership: true },
+            {name: "Rio", hasMembership: false }
+        ];
+
+
+            function checkMembership(customer) {
+            if (customer.hasMembership) {
+            console.log(`${customer.name} mendapatkan diskon 5%`);
+            } else {
+                console.log(`${customer.name} tidak mendapatkan diskon`);
+            }
+        }   
+
+        customers.forEach(checkMembership);
+        </script>
+    </p>    
+</body>
+</html>
