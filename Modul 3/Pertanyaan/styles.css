@@ -1,12 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    background-color: #cecece;
     margin: 20px;
 }
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #0c0c0c;
 }
 
 table {
@@ -34,6 +34,6 @@ td {
 }
 
 img {
-    width: 100px; /* Atur ukuran gambar sesuai kebutuhan */
+    width: 100px; 
     height: auto;
 }
