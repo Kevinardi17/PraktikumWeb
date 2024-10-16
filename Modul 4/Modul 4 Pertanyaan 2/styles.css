@@ -8,8 +8,8 @@ body {
 h1 {
     text-align: center;
     color: #0c0c0c;
-    font-size: 2.5em; /* Ukuran besar */
-    font-weight: bold; /* Dicetak tebal */
+    font-size: 2.5em; 
+    font-weight: bold; 
 }
 .logo {
     max-width: 150px;
