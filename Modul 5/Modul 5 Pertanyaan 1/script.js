@@ -1,17 +1,10 @@
-function submitOrder() {
-    const checkboxes = document.querySelectorAll('input[name="menu"]:checked');
-    let selectedItems = [];
+document.getElementById('submitOrder').addEventListener('click', function() {
+    const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+    const pesanan = [];
 
-    Array.from(checkboxes).forEach((checkbox) => {
-        selectedItems.push(checkbox.value);
+    checkboxes.forEach((checkbox) => {
+        pesanan.push(checkbox.value);
     });
 
-    if (selectedItems.length > 0) {
-        console.log("Pesanan Anda: ");
-        selectedItems.forEach((item) => {
-            console.log(item);
-        });
-    } else {
-        console.log("Anda belum memesan makanan. Silahkan pesan terlebih dahulu.");
-    }
-}
+    console.log('Hasil Pesanan:', pesanan);
+});

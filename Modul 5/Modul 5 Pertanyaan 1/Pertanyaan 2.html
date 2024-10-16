@@ -1,10 +1,14 @@
 <!DOCTYPE html>
+<html lang="id">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daftar Menu Restoran Kevin Ardi Setyawan</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>Daftar Menu Restoran Kevin Adi Setyawan</h1>
+    <h1>Daftar Menu Restoran Kevin Ardi Setyawan</h1>
     <img src="logo.png" alt="Logo Restoran" class="logo">
 
     <div class="nav-links">
@@ -23,25 +27,31 @@
         </thead>
         <tbody>
             <tr>
-                <td>Ayam Bakar</td>
+                <td><input type="checkbox" value="Ayam Bakar"> Ayam Bakar</td>
                 <td>Rp 15.000</td>
                 <td><a href="https://cookpad.com/id/resep/17096964-sate-ayam-khas-madura">Detail</a></td>
                 <td><img src="ayam bakar.jpg" alt="Ayam Bakar" /></td>
             </tr>
             <tr>
-                <td>Ayam Penyet</td>
+                <td><input type="checkbox" value="Ayam Penyet"> Ayam Penyet</td>
                 <td>Rp 15.000</td>
                 <td><a href="https://cookpad.com/id/resep/16372376-ayam-penyet">Detail</a></td>
                 <td><img src="ayam penyet.jpg" alt="Ayam Penyet" /></td>
             </tr>
             <tr>
-                <td>Sate Ayam</td>
+                <td><input type="checkbox" value="Sate Ayam"> Sate Ayam</td>
                 <td>Rp 22.000</td>
                 <td><a href="https://cookpad.com/id/resep/17096964-sate-ayam-khas-madura">Detail</a></td>
                 <td><img src="sate ayam.jpg" alt="Sate Ayam" /></td>
             </tr>
         </tbody>
     </table>
+
+    <div class="order-form">
+        <input type="number" id="orderQuantity" placeholder="Jumlah" min="1" style="width: 60px;">
+        <button id="submitOrder">Akhiri Pesanan</button>
+    </div>
+
     <footer>
         @Copyright Kevin Ardi Setyawan 2024
     </footer>
