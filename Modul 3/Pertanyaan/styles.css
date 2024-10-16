@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    border: 2px solid #4CAF50;
+    background-color: #fff;
+}
+
+thead {
+    background-color: #4CAF50;
+    color: white;
+    font-family: 'Verdana', sans-serif;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+td {
+    font-family: 'Courier New', monospace;
+}
+
+img {
+    width: 100px; /* Atur ukuran gambar sesuai kebutuhan */
+    height: auto;
+}
