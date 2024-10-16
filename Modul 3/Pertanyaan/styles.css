@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #cecece;
     margin: 20px;
+    text-align: center;
 }
 
 h1 {
@@ -15,25 +16,29 @@ table {
     margin: 20px 0;
     border: 2px solid #4CAF50;
     background-color: #fff;
+    text-align: center;
 }
 
 thead {
     background-color: #4CAF50;
     color: white;
     font-family: 'Verdana', sans-serif;
+    text-align: center;
 }
 
 th, td {
     padding: 10px;
-    text-align: left;
+    text-align: center;
     border: 1px solid #ddd;
 }
 
 td {
+    text-align: center;
     font-family: 'Courier New', monospace;
 }
 
 img {
+    text-align: center;
     width: 100px; 
     height: auto;
 }
