@@ -1,0 +1,106 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+    background-color: #b1b1b1; 
+}
+
+header {
+    text-align: center;
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradasi dari ungu ke biru */
+    color: white;
+    padding: 20px 0; 
+    border-radius: 5px; 
+}
+
+.foto-profil {
+    width: 150px; 
+    height: auto; 
+    border-radius: 10%; 
+    margin-top: 10px; 
+}
+
+.cv-title {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 1.8em; 
+    margin-top: 10px; 
+    border: 2px solid #fff; 
+    padding: 10px; 
+    border-radius: 5px; 
+    display: inline-block; 
+    background-color: rgba(255, 255, 255, 0.2); 
+
+}
+.cv-title::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0; 
+    background: linear-gradient(to right, #ffcc00, #ff6600); 
+    z-index: -1; 
+    border-radius: 5px; 
+    padding: 3px; 
+}
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #b41818; 
+}
+
+.kontak-info {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-menu {
+    list-style: none; 
+    padding: 0;
+    margin: 10px 0; 
+}
+
+.nav-menu li {
+    display: inline;
+    margin: 0 15px; 
+}
+
+.nav-menu a {
+    color: white; 
+    text-decoration: none; 
+    font-weight: bold; 
+    padding: 8px 12px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
+
+.nav-menu a:hover {
+    background-color: rgba(255, 255, 255, 0.3); 
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+img {
+    display: block;
+    margin: 10px auto; 
+}
